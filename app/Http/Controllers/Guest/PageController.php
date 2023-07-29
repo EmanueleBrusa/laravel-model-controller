@@ -12,8 +12,11 @@ class PageController extends Controller
     public function index(){
         $comics = Comic::all();
 
-        dd($comics);
 
-        return view('home');
+        return view('home', compact('comics'));
+
+        public function show($id){
+            $comic = 
+        }
     }
 }
