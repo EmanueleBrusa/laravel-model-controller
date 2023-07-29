@@ -17,3 +17,4 @@ use App\Http\Controllers\Guest\PageController as PageController;
 
 
 Route::get('/', [PageController::class, 'index']);
+Route::get('/comic/{id}', [PageController::class, 'show'])->name('comic.show');
