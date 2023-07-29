@@ -9,3 +9,51 @@
 body {
     margin-left: 10px;
 }
+
+.comic-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ee0606;
+    /* Red color used by DC Comics */
+    margin-bottom: 1rem;
+}
+
+.comic-info {
+    font-size: 1.1rem;
+    color: #3d3d3d;
+}
+
+.comic-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.custom-btn-shadow {
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.custom-btn-shadow:hover {
+    background-color: #007bff;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+h4 {
+    color: #0047AB;
+}
+
+.dc-comics-title {
+    font-size: 4rem;
+    color: #0047AB;
+    margin-top: 2rem;
+}

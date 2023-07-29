@@ -4,7 +4,7 @@
     <div class="contaniner">
         <div class="row">
             <div class="col-12">
-                <h2>DC Comics</h2>
+                <h2 class="text-center dc-comics-title">DC Comics</h2>
             </div>
             <div class="row mt-5">
                 @foreach ($comics as $comic)
